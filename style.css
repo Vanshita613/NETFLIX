@@ -12,6 +12,9 @@
     position: relative;
     background-size: cover;
 }
+body{
+    background-color: black;
+}
 
 .main .box {
     height: 80vh;
@@ -35,11 +38,41 @@ nav {
 nav img {
     color: red;
     width: 116px;
-    position:relative;
-    z-index:10;
-}
-nav button{
-    position:relative;
-    z-index:10;
+    position: relative;
+    z-index: 10;
 }
 
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+
+    font-family: 'Martel Sans', sans-serif;
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+}
+
+.hero :first-child {
+    font-weight: bolder;
+    font-size: 48px;
+
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+}
