@@ -27,19 +27,19 @@ body {
 }
 
 nav {
-    max-width: 60vw;
+    max-width: 79vw;
     justify-content: space-between;
     margin: auto;
     display: flex;
     align-items: center;
-    height: 62px;
-    margin-left: 20%;
+    height: 69px;
+    margin-left: 10%;
 }
 
 nav img {
-    top: 29px;
+    top: 19px;
     color: red;
-    width: 200px;
+    width: 168px;
     position: relative;
     z-index: 10;
 }
@@ -97,4 +97,53 @@ nav button {
     border-top: 3px solid #ff0057;
     border-radius: 50%/106%;
     background: black;
+}
+
+.btn {
+    /* top: 19px;*/
+    background-color: white;
+    padding: 6px 36px;
+    font-weight: bold;
+    /* width: 124px;
+    height: 32px; 
+    color: white;
+    border-radius: 3px;
+    border: 0.1px solid white; */
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    /* border: none; */
+    /* margin-inline: 15px; */
+    color:white;
+}
+
+.btn-red {
+    background-color: red;
+    padding: 3px 24px;
+    border: none;
+    font-size: 22px;
+    /* height: 50px;
+    width: 22vh; */
+    color: white;
+    border-radius:4px;
+}
+
+.hero-button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:16px;
+}
+.main input {
+    background-color: rgba(77, 74, 74, 0.158);
+    font-weight: 200;
+    font-size: 14px;
+    /* height: 45px;
+    width: 22vh; */
+    padding: 7px 101px 8px 14px;
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border: 1px solid rgba(255, 246, 246, 0.7);
 }
