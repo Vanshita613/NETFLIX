@@ -8,7 +8,7 @@
     background-position: center center;
     background-size: max(1200px, 100vw);
     background-repeat: no-repeat;
-    /* height: 70vh; */
+    height: 96vh;
     position: relative;
     background-size: cover;
 }
@@ -101,22 +101,23 @@ nav button {
 
 .btn {
     /* top: 19px;*/
-    background-color: white;
+    background-color: rgba(253, 248, 248, 0.11);
     padding: 6px 36px;
     font-weight: bold;
     /* width: 124px;
     height: 32px; 
-    color: white;
+    color: white;*/
     border-radius: 3px;
-    border: 0.1px solid white; */
+    border: 0.1px solid white;
+    color: rgb(223, 215, 215);
 
 }
 
 .btn-red-sm {
     background-color: red;
-    /* border: none; */
-    /* margin-inline: 15px; */
-    color:white;
+    border: none;
+    margin-inline: 15px;
+    color: white;
 }
 
 .btn-red {
@@ -127,15 +128,16 @@ nav button {
     /* height: 50px;
     width: 22vh; */
     color: white;
-    border-radius:4px;
+    border-radius: 4px;
 }
 
-.hero-button{
-    display:flex;
+.hero-button {
+    display: flex;
     align-items: center;
     justify-content: center;
-    gap:16px;
+    gap: 16px;
 }
+
 .main input {
     background-color: rgba(77, 74, 74, 0.158);
     font-weight: 200;
@@ -147,3 +149,51 @@ nav button {
     border-radius: 3px;
     border: 1px solid rgba(255, 246, 246, 0.7);
 }
+
+.box {
+    background-color: green;
+    height: 20px;
+    width: 40px;
+}
+
+#container {
+    /* height:200px;
+    width:100px;
+    background-color: red;
+    display:flex; */
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    align-items: flex-start;
+    border: 2px solid white;
+    /* background-color: red; */
+    
+  
+}
+/* 
+#box1 {
+    height: 200px;
+    width: 100px;
+    background-color: aqua;
+}
+
+#box2 {
+    height: 200px;
+    width: 100px;
+    background-color: beige;
+}
+
+#box3 {
+    height: 200px;
+    width: 100px;
+    background-color: rgb(231, 231, 66);
+}
+
+#box4 {
+    height: 200px;
+    width: 100px;
+    background-color: rgb(12, 85, 168);
+} */
